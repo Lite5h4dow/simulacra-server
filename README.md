@@ -21,11 +21,11 @@ render a cube in vr from a simulacra server from a manifest.
 - [x] Respond with Manifest
 - [x] Respond with Asset
 - [x] Respond with Placeholder HTTP response
-- [ ] Make Webclient (Starting with A-Frame for a simple POC)
+- [ ] [Make Webclient (Starting with A-Frame for a simple POC)](https://github.com/LotusLabsSoftworks/simulacra-webclient)
 - [ ] Add Materials to manifest
 - [ ] Respond with Material (possibly another manifest or an archive with all material assets)
 - [ ] Compression (?) (Need to test decompression efficiency in browser)
-- [ ] Refactor Monolith (!!) #1
+- [ ] [Refactor Monolith (!!)](https://github.com/LotusLabsSoftworks/simulacra-server/issues/1)
 
 ## Nice-To-Haves:
 - Flags: 
