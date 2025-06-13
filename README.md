@@ -25,7 +25,7 @@ render a cube in vr from a simulacra server from a manifest.
 - [ ] Add Materials to manifest
 - [ ] Respond with Material (possibly another manifest or an archive with all material assets)
 - [ ] Compression (?) (Need to test decompression efficiency in browser)
-- [ ] Refactor Monolith (!!)
+- [ ] Refactor Monolith (!!) #1
 
 ## Nice-To-Haves:
 - Flags: 
@@ -69,3 +69,4 @@ render a cube in vr from a simulacra server from a manifest.
   - Site: https://litelot.us (currently down, home server is down for maintenance)
   - Blog: https://litelot.us/blog (currently down, home server is down for maintenance)
   - Discord: https://discord.gg/pasEV9p4 (please dont blow this up too much)
+  - Matrix: (not set up yet, need to look into it)
