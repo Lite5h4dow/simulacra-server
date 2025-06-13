@@ -6,10 +6,6 @@ import (
 	"strings"
 )
 
-var (
-	headerEndMarker = []byte{0x0d, 0x0a, 0x0d, 0x0a}
-)
-
 func FindMarker(marker []byte, target []byte) (int, error) {
 	for index, element := range target {
 		if element != marker[0] {

@@ -6,6 +6,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/LotusLabsSoftworks/simulacra-server/src/handlers"
+	"github.com/LotusLabsSoftworks/simulacra-server/src/helpers"
 	"io"
 	"log"
 	"net"
@@ -76,7 +77,7 @@ func HandleConnection(c net.Conn, directory string) {
 
 		fmt.Println(string(packet))
 
-		isHttpRequest, err := parsers.IsHttpPacket(packet)
+		isHttpRequest, err := helpers.IsHttpPacket(packet)
 		fmt.Println("is http:", isHttpRequest)
 
 		if isHttpRequest {
@@ -90,7 +91,7 @@ func HandleConnection(c net.Conn, directory string) {
 		}
 
 		// fmt.Println(string(packet))
-		isSimulacraRequest, err := parsers.IsSimulacraPacket(packet)
+		isSimulacraRequest, err := helpers.IsSimulacraPacket(packet)
 		// fmt.Println("is simulacra:", isSimulacraRequest)
 
 		if isSimulacraRequest {
