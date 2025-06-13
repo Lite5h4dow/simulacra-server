@@ -32,7 +32,7 @@ render a cube in vr from a simulacra server from a manifest.
 - [ ] Add Materials to manifest
 - [ ] Respond with Material (possibly another manifest or an archive with all material assets)
 - [ ] Compression (?) (Need to test decompression efficiency in browser)
-- [ ] [Refactor Monolith (!!)](https://github.com/LotusLabsSoftworks/simulacra-server/issues/1)
+- [x] [Refactor Monolith (!!)](https://github.com/LotusLabsSoftworks/simulacra-server/issues/1)
 
 ## Nice-To-Haves:
 - Flags: 
