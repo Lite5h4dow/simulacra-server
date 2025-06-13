@@ -1,4 +1,4 @@
-ASSET /cube.fbx SIMULACRA/0.1
+MANIFEST / SIMULACRA/0.1
 Host: localhost:9191
 Live-Connection: false
 Upgrade-Liveliness: true

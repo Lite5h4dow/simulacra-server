@@ -1,0 +1,7 @@
+assets:
+  cube:
+    path: /cube.fbx
+    location:
+      x: 0
+      y: 0
+      z: 0

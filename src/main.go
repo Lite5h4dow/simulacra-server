@@ -36,6 +36,8 @@ func main() {
 	portFlagPtr := flag.Int("port", 9191, "port for simulacra server")
 	folderPathPtr := flag.String("dir", workingDir, "folder with simulacra manifest and assets")
 
+	flag.Parse()
+
 	port := ":" + fmt.Sprintf("%v", *portFlagPtr)
 	directory := *folderPathPtr
 
