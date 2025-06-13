@@ -6,7 +6,6 @@ import (
 	"flag"
 	"fmt"
 	"github.com/LotusLabsSoftworks/simulacra-server/src/handlers"
-	"github.com/LotusLabsSoftworks/simulacra-server/src/helpers"
 	"io"
 	"log"
 	"net"
@@ -16,8 +15,7 @@ import (
 const ()
 
 var (
-	headerEndMarker = []byte{0x0d, 0x0a, 0x0d, 0x0a}
-	markerNotFound  = errors.New("Marker Wasnt Found")
+	markerNotFound = errors.New("Marker Wasnt Found")
 )
 
 func main() {

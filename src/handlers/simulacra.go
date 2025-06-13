@@ -51,7 +51,7 @@ func SimulacraAsset(b []byte, directory string) ([]byte, error) {
 }
 
 func HandleSimulacraRequest(packet []byte, directory string) ([]byte, error) {
-	method, err := parsers.GetHeaderMethod(packet)
+	method, err := helpers.GetHeaderMethod(packet)
 
 	if err != nil {
 		return nil, err
@@ -83,7 +83,7 @@ Content-Length: %d`,
 		payloadLength,
 	)
 
-	responseHeader := append([]byte(responseString), headerEndMarker...)
+	responseHeader := helpers.WrapHeaderWithMarker([]byte(responseString))
 	responseWithPayload := append(responseHeader, payload...)
 	return responseWithPayload
 }
