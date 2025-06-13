@@ -27,7 +27,7 @@ render a cube in vr from a simulacra server from a manifest.
 - [ ] Compression (?) (Need to test decompression efficiency in browser)
 
 ## Nice-To-Haves:
-- [-] Flags: 
+- Flags: 
   - [x] Custom Port
   - [x] Custom Directory
   - [ ] Help Manual
