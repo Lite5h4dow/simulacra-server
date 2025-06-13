@@ -13,6 +13,13 @@ eventually i want to make a dedicated client using godot that will have extra be
 replicate with a browser, like LOD and more complex render tech, but im starting small with the aim to just
 render a cube in vr from a simulacra server from a manifest.
 
+## FAQ:
+- Why a protocol and not just use a RestAPI?
+  1. i feel like it would be too easy to impliment into existing servers and leave room for exploitation
+  2. No one can agree on one universal way to impliment Rest API's so the easiest way to democratise
+    this project reliably IMO is to make a protocol and build on peoples needs emulating what http did for the internet and
+    personal websites
+
 ## Todo:
 - [x] Consume TCP/IP Packet
 - [x] Detect HTTP / Simulacra
