@@ -34,6 +34,7 @@ render a cube in vr from a simulacra server from a manifest.
   - [ ] Help Manual
   - [ ] (I'm sure ill think of more flags)
 
+- [ ] replace manifest.yaml with protobuf (possibly dynamic manifest building? hot-reload anyone?)
 - [ ] nix-shell for development (make it easier for others to contribute).
 - [ ] nix-flake for CI/CD (Binary and OCI Container).
 - [ ] CI/CD Pipeline
@@ -55,7 +56,7 @@ render a cube in vr from a simulacra server from a manifest.
   - [ ] Go (custom clients and bots/scripts maybe?).
   - [ ] C# (Godo-Mono, Resonite Cross compat?, Unity).
     - This will be used for the official dedicated client (if Godot-mono can cross compile for quest/pico/vive).
-  - [ ] JS/TS (web clients / websites).
+  - [ ] JS/TS (web clients / websites / bots / scripts).
   - [ ] GDScript (?).
     - I will not use this (probably, unless godot-mono is still missing features by the time i get to it).
     - will only add this to the scope if there is demand for it.
